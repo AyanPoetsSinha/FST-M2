@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-24T07:41:02 IST" name="Default suite" finished-at="2021-05-24T07:41:24 IST" duration-ms="22642">
+    <groups>
+    </groups>
+    <test started-at="2021-05-24T07:41:02 IST" name="Default test" finished-at="2021-05-24T07:41:24 IST" duration-ms="22642">
+      <class name="activities.Activity1">
+        <test-method signature="addNewPet()[pri:1, instance:activities.Activity1@5d0b0cb9]" started-at="2021-05-24T07:41:02 IST" name="addNewPet" finished-at="2021-05-24T07:41:07 IST" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPet -->
+        <test-method signature="getPetInfo()[pri:2, instance:activities.Activity1@5d0b0cb9]" started-at="2021-05-24T07:41:07 IST" name="getPetInfo" finished-at="2021-05-24T07:41:09 IST" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetInfo -->
+        <test-method signature="deletePet()[pri:3, instance:activities.Activity1@5d0b0cb9]" started-at="2021-05-24T07:41:09 IST" name="deletePet" finished-at="2021-05-24T07:41:11 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePet -->
+      </class> <!-- activities.Activity1 -->
+      <class name="activities.Activity3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:activities.Activity3@642ee49c]" started-at="2021-05-24T07:41:11 IST" name="setUp" finished-at="2021-05-24T07:41:11 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addPets()[pri:1, instance:activities.Activity3@642ee49c]" started-at="2021-05-24T07:41:11 IST" name="addPets" finished-at="2021-05-24T07:41:14 IST" duration-ms="3000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPets -->
+        <test-method signature="getPets(int,java.lang.String,java.lang.String)[pri:2, instance:activities.Activity3@642ee49c]" started-at="2021-05-24T07:41:14 IST" name="getPets" data-provider="petInfoProvider" finished-at="2021-05-24T07:41:15 IST" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77232]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Riley]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPets -->
+        <test-method signature="getPets(int,java.lang.String,java.lang.String)[pri:2, instance:activities.Activity3@642ee49c]" started-at="2021-05-24T07:41:15 IST" name="getPets" data-provider="petInfoProvider" finished-at="2021-05-24T07:41:17 IST" duration-ms="1430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77233]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hansel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPets -->
+        <test-method signature="deletePets(int,java.lang.String,java.lang.String)[pri:3, instance:activities.Activity3@642ee49c]" started-at="2021-05-24T07:41:17 IST" name="deletePets" data-provider="petInfoProvider" finished-at="2021-05-24T07:41:18 IST" duration-ms="1530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77232]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Riley]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePets -->
+        <test-method signature="deletePets(int,java.lang.String,java.lang.String)[pri:3, instance:activities.Activity3@642ee49c]" started-at="2021-05-24T07:41:18 IST" name="deletePets" data-provider="petInfoProvider" finished-at="2021-05-24T07:41:20 IST" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77233]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hansel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePets -->
+      </class> <!-- activities.Activity3 -->
+      <class name="activities.Activity2">
+        <test-method signature="addNewUserFromFile()[pri:1, instance:activities.Activity2@69909c14]" started-at="2021-05-24T07:41:20 IST" name="addNewUserFromFile" finished-at="2021-05-24T07:41:21 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserFromFile -->
+        <test-method signature="getUserInfo()[pri:2, instance:activities.Activity2@69909c14]" started-at="2021-05-24T07:41:21 IST" name="getUserInfo" finished-at="2021-05-24T07:41:23 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfo -->
+        <test-method signature="deleteUser()[pri:3, instance:activities.Activity2@69909c14]" started-at="2021-05-24T07:41:23 IST" name="deleteUser" finished-at="2021-05-24T07:41:24 IST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- activities.Activity2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
